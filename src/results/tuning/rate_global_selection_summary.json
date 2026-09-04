@@ -1,0 +1,264 @@
+{
+  "candidates": [
+    {
+      "beta": 0.01,
+      "between_environment_std": 0.06793869642474769,
+      "explorer_kwargs": {
+        "beta": 0.01,
+        "eps_max": 1.0,
+        "eps_min": 0.01,
+        "kappa": 1.0
+      },
+      "global_normalised_mean": 0.6421355256495778,
+      "kappa": 1.0,
+      "per_environment": {
+        "LunarLander-v3": {
+          "alpha_bar": 0.1,
+          "normalised_mean": 0.5940956127026644,
+          "normalised_scores": [
+            0.6724466434387709,
+            0.531209210596349,
+            0.5786309840728734
+          ],
+          "normalised_std": 0.07187745935251487,
+          "raw_mean": 45.75633282701248,
+          "raw_scores": [
+            75.52972450673295,
+            21.8595000266126,
+            39.87977394769188
+          ],
+          "raw_std": 27.313434553955652
+        },
+        "MountainCar-v0": {
+          "alpha_bar": 0.75,
+          "normalised_mean": 0.6901754385964911,
+          "normalised_scores": [
+            0.754736842105263,
+            0.39578947368421047,
+            0.92
+          ],
+          "normalised_std": 0.26800242553442705,
+          "raw_mean": -134.43333333333337,
+          "raw_scores": [
+            -128.3,
+            -162.4,
+            -112.6
+          ],
+          "raw_std": 25.460230425770572
+        }
+      }
+    },
+    {
+      "beta": 0.01,
+      "between_environment_std": 0.1387825153116325,
+      "explorer_kwargs": {
+        "beta": 0.01,
+        "eps_max": 1.0,
+        "eps_min": 0.01,
+        "kappa": 2.0
+      },
+      "global_normalised_mean": 0.7902869949445976,
+      "kappa": 2.0,
+      "per_environment": {
+        "LunarLander-v3": {
+          "alpha_bar": 0.1,
+          "normalised_mean": 0.6921529372576165,
+          "normalised_scores": [
+            1.1134109451090302,
+            0.436143195486431,
+            0.5269046711773883
+          ],
+          "normalised_std": 0.36763180391746075,
+          "raw_mean": 83.01811615789428,
+          "raw_scores": [
+            243.0961591414315,
+            -14.26558571515621,
+            20.223775047407546
+          ],
+          "raw_std": 139.70008548863512
+        },
+        "MountainCar-v0": {
+          "alpha_bar": 0.75,
+          "normalised_mean": 0.8884210526315789,
+          "normalised_scores": [
+            0.7073684210526314,
+            1.0336842105263158,
+            0.9242105263157895
+          ],
+          "normalised_std": 0.16607577618335273,
+          "raw_mean": -115.60000000000001,
+          "raw_scores": [
+            -132.8,
+            -101.8,
+            -112.2
+          ],
+          "raw_std": 15.77719873741851
+        }
+      }
+    },
+    {
+      "beta": 0.05,
+      "between_environment_std": 0.0429645671498091,
+      "explorer_kwargs": {
+        "beta": 0.05,
+        "eps_max": 1.0,
+        "eps_min": 0.01,
+        "kappa": 1.0
+      },
+      "global_normalised_mean": 0.3422510421649937,
+      "kappa": 1.0,
+      "per_environment": {
+        "LunarLander-v3": {
+          "alpha_bar": 0.1,
+          "normalised_mean": 0.3118705053826189,
+          "normalised_scores": [
+            -0.08488698976630173,
+            0.7510969101810219,
+            0.26940159573313655
+          ],
+          "normalised_std": 0.4196069308983065,
+          "raw_mean": -61.48920795460483,
+          "raw_scores": [
+            -212.25705611119466,
+            105.41682586878831,
+            -77.62739362140812
+          ],
+          "raw_std": 159.45063374135643
+        },
+        "MountainCar-v0": {
+          "alpha_bar": 0.75,
+          "normalised_mean": 0.3726315789473685,
+          "normalised_scores": [
+            0.6200000000000001,
+            0.18421052631578946,
+            0.3136842105263159
+          ],
+          "normalised_std": 0.22379501899353302,
+          "raw_mean": -164.6,
+          "raw_scores": [
+            -141.1,
+            -182.5,
+            -170.2
+          ],
+          "raw_std": 21.260526804385634
+        }
+      }
+    },
+    {
+      "beta": 0.05,
+      "between_environment_std": 0.3002723897436473,
+      "explorer_kwargs": {
+        "beta": 0.05,
+        "eps_max": 1.0,
+        "eps_min": 0.01,
+        "kappa": 2.0
+      },
+      "global_normalised_mean": 0.804517462272335,
+      "kappa": 2.0,
+      "per_environment": {
+        "LunarLander-v3": {
+          "alpha_bar": 0.1,
+          "normalised_mean": 0.5921928192815121,
+          "normalised_scores": [
+            0.58993076998548,
+            0.7465338936061284,
+            0.4401137942529281
+          ],
+          "normalised_std": 0.15322257331140718,
+          "raw_mean": 45.033271326974635,
+          "raw_scores": [
+            44.17369259448242,
+            103.68287957032881,
+            -12.756758183887301
+          ],
+          "raw_std": 58.224577858334726
+        },
+        "MountainCar-v0": {
+          "alpha_bar": 0.75,
+          "normalised_mean": 1.016842105263158,
+          "normalised_scores": [
+            1.0768421052631578,
+            1.04,
+            0.9336842105263158
+          ],
+          "normalised_std": 0.07433546779871089,
+          "raw_mean": -103.39999999999999,
+          "raw_scores": [
+            -97.7,
+            -101.2,
+            -111.3
+          ],
+          "raw_std": 7.061869440877532
+        }
+      }
+    }
+  ],
+  "normalisation": {
+    "LunarLander-v3": {
+      "random": -180.0,
+      "reference": 200.0
+    },
+    "MountainCar-v0": {
+      "random": -200.0,
+      "reference": -105.0
+    }
+  },
+  "selected": {
+    "beta": 0.05,
+    "between_environment_std": 0.3002723897436473,
+    "explorer_kwargs": {
+      "beta": 0.05,
+      "eps_max": 1.0,
+      "eps_min": 0.01,
+      "kappa": 2.0
+    },
+    "global_normalised_mean": 0.804517462272335,
+    "kappa": 2.0,
+    "per_environment": {
+      "LunarLander-v3": {
+        "alpha_bar": 0.1,
+        "normalised_mean": 0.5921928192815121,
+        "normalised_scores": [
+          0.58993076998548,
+          0.7465338936061284,
+          0.4401137942529281
+        ],
+        "normalised_std": 0.15322257331140718,
+        "raw_mean": 45.033271326974635,
+        "raw_scores": [
+          44.17369259448242,
+          103.68287957032881,
+          -12.756758183887301
+        ],
+        "raw_std": 58.224577858334726
+      },
+      "MountainCar-v0": {
+        "alpha_bar": 0.75,
+        "normalised_mean": 1.016842105263158,
+        "normalised_scores": [
+          1.0768421052631578,
+          1.04,
+          0.9336842105263158
+        ],
+        "normalised_std": 0.07433546779871089,
+        "raw_mean": -103.39999999999999,
+        "raw_scores": [
+          -97.7,
+          -101.2,
+          -111.3
+        ],
+        "raw_std": 7.061869440877532
+      }
+    }
+  },
+  "selection_metric": "mean of per-environment mean normalised final greedy returns",
+  "tuning_environments": [
+    "MountainCar-v0",
+    "LunarLander-v3"
+  ],
+  "tuning_seeds": [
+    1000,
+    1001,
+    1002
+  ]
+}

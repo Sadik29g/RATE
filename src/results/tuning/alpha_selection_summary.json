@@ -1,0 +1,340 @@
+{
+  "Acrobot-v1": {
+    "alpha_grid": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "candidates": [
+      {
+        "alpha_bar": 0.1,
+        "max_final_eval": -215.8,
+        "mean_final_eval": -250.80000000000004,
+        "min_final_eval": -290.3,
+        "seed_scores": [
+          -215.8,
+          -246.3,
+          -290.3
+        ],
+        "std_final_eval": 37.45330426010501
+      },
+      {
+        "alpha_bar": 0.25,
+        "max_final_eval": -110.5,
+        "mean_final_eval": -132.20000000000002,
+        "min_final_eval": -156.3,
+        "seed_scores": [
+          -110.5,
+          -156.3,
+          -129.8
+        ],
+        "std_final_eval": 22.994129685639336
+      },
+      {
+        "alpha_bar": 0.5,
+        "max_final_eval": -95.4,
+        "mean_final_eval": -102.76666666666667,
+        "min_final_eval": -111.7,
+        "seed_scores": [
+          -95.4,
+          -111.7,
+          -101.2
+        ],
+        "std_final_eval": 8.262162751564103
+      },
+      {
+        "alpha_bar": 0.75,
+        "max_final_eval": -99.5,
+        "mean_final_eval": -111.53333333333335,
+        "min_final_eval": -126.2,
+        "seed_scores": [
+          -108.9,
+          -126.2,
+          -99.5
+        ],
+        "std_final_eval": 13.543387070202687
+      },
+      {
+        "alpha_bar": 1.0,
+        "max_final_eval": -114.6,
+        "mean_final_eval": -122.76666666666665,
+        "min_final_eval": -137.2,
+        "seed_scores": [
+          -137.2,
+          -116.5,
+          -114.6
+        ],
+        "std_final_eval": 12.53568240397519
+      }
+    ],
+    "selected_alpha_bar": 0.5,
+    "selected_mean_final_eval": -102.76666666666667,
+    "selected_std_final_eval": 8.262162751564103,
+    "winner_at_edge": false,
+    "winner_at_lower_edge": false,
+    "winner_at_upper_edge": false,
+    "winner_index": 2
+  },
+  "CartPole-v1": {
+    "alpha_grid": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5
+    ],
+    "candidates": [
+      {
+        "alpha_bar": 0.1,
+        "max_final_eval": 396.2,
+        "mean_final_eval": 320.46666666666664,
+        "min_final_eval": 257.2,
+        "seed_scores": [
+          257.2,
+          396.2,
+          308.0
+        ],
+        "std_final_eval": 70.3335860974921
+      },
+      {
+        "alpha_bar": 0.25,
+        "max_final_eval": 452.5,
+        "mean_final_eval": 382.56666666666666,
+        "min_final_eval": 277.3,
+        "seed_scores": [
+          417.9,
+          452.5,
+          277.3
+        ],
+        "std_final_eval": 92.79058860322706
+      },
+      {
+        "alpha_bar": 0.5,
+        "max_final_eval": 500.0,
+        "mean_final_eval": 430.90000000000003,
+        "min_final_eval": 372.6,
+        "seed_scores": [
+          420.1,
+          500.0,
+          372.6
+        ],
+        "std_final_eval": 64.3829946492084
+      },
+      {
+        "alpha_bar": 0.75,
+        "max_final_eval": 500.0,
+        "mean_final_eval": 430.9666666666667,
+        "min_final_eval": 292.9,
+        "seed_scores": [
+          500.0,
+          500.0,
+          292.9
+        ],
+        "std_final_eval": 119.56924074917151
+      },
+      {
+        "alpha_bar": 1.0,
+        "max_final_eval": 500.0,
+        "mean_final_eval": 489.76666666666665,
+        "min_final_eval": 469.3,
+        "seed_scores": [
+          500.0,
+          469.3,
+          500.0
+        ],
+        "std_final_eval": 17.724653264121507
+      },
+      {
+        "alpha_bar": 1.25,
+        "max_final_eval": 266.3,
+        "mean_final_eval": 140.83333333333334,
+        "min_final_eval": 11.5,
+        "seed_scores": [
+          11.5,
+          144.7,
+          266.3
+        ],
+        "std_final_eval": 127.44400077419625
+      },
+      {
+        "alpha_bar": 1.5,
+        "max_final_eval": 143.7,
+        "mean_final_eval": 67.83333333333333,
+        "min_final_eval": 10.9,
+        "seed_scores": [
+          48.9,
+          143.7,
+          10.9
+        ],
+        "std_final_eval": 68.39454169254542
+      }
+    ],
+    "selected_alpha_bar": 1.0,
+    "selected_mean_final_eval": 489.76666666666665,
+    "selected_std_final_eval": 17.724653264121507,
+    "winner_at_edge": false,
+    "winner_at_lower_edge": false,
+    "winner_at_upper_edge": false,
+    "winner_index": 4
+  },
+  "LunarLander-v3": {
+    "alpha_grid": [
+      0.025,
+      0.05,
+      0.1,
+      0.25,
+      0.5
+    ],
+    "candidates": [
+      {
+        "alpha_bar": 0.025,
+        "max_final_eval": 94.13128007831654,
+        "mean_final_eval": 44.68526403574862,
+        "min_final_eval": 18.34840128115896,
+        "seed_scores": [
+          18.34840128115896,
+          21.57611074777037,
+          94.13128007831654
+        ],
+        "std_final_eval": 42.85190665491591
+      },
+      {
+        "alpha_bar": 0.05,
+        "max_final_eval": 27.14928998480712,
+        "mean_final_eval": -26.59580311282286,
+        "min_final_eval": -119.3371673721193,
+        "seed_scores": [
+          27.14928998480712,
+          12.400468048843603,
+          -119.3371673721193
+        ],
+        "std_final_eval": 80.65421514484733
+      },
+      {
+        "alpha_bar": 0.1,
+        "max_final_eval": 126.70773025722255,
+        "mean_final_eval": 102.14222546600945,
+        "min_final_eval": 82.05481983722005,
+        "seed_scores": [
+          97.66412630358573,
+          126.70773025722255,
+          82.05481983722005
+        ],
+        "std_final_eval": 22.660772963991473
+      },
+      {
+        "alpha_bar": 0.25,
+        "max_final_eval": 106.93416986707157,
+        "mean_final_eval": 41.67384612105099,
+        "min_final_eval": -39.96551245521205,
+        "seed_scores": [
+          -39.96551245521205,
+          106.93416986707157,
+          58.05288095129346
+        ],
+        "std_final_eval": 74.80697663369831
+      },
+      {
+        "alpha_bar": 0.5,
+        "max_final_eval": -45.12306069010704,
+        "mean_final_eval": -97.54639835590125,
+        "min_final_eval": -171.71658662738236,
+        "seed_scores": [
+          -75.79954775021432,
+          -171.71658662738236,
+          -45.12306069010704
+        ],
+        "std_final_eval": 66.03918787929973
+      }
+    ],
+    "selected_alpha_bar": 0.1,
+    "selected_mean_final_eval": 102.14222546600945,
+    "selected_std_final_eval": 22.660772963991473,
+    "winner_at_edge": false,
+    "winner_at_lower_edge": false,
+    "winner_at_upper_edge": false,
+    "winner_index": 2
+  },
+  "MountainCar-v0": {
+    "alpha_grid": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "candidates": [
+      {
+        "alpha_bar": 0.1,
+        "max_final_eval": -106.7,
+        "mean_final_eval": -118.13333333333333,
+        "min_final_eval": -137.6,
+        "seed_scores": [
+          -137.6,
+          -110.1,
+          -106.7
+        ],
+        "std_final_eval": 16.944123858533768
+      },
+      {
+        "alpha_bar": 0.25,
+        "max_final_eval": -100.7,
+        "mean_final_eval": -111.8,
+        "min_final_eval": -124.1,
+        "seed_scores": [
+          -124.1,
+          -110.6,
+          -100.7
+        ],
+        "std_final_eval": 11.746063170271132
+      },
+      {
+        "alpha_bar": 0.5,
+        "max_final_eval": -101.8,
+        "mean_final_eval": -109.56666666666666,
+        "min_final_eval": -119.7,
+        "seed_scores": [
+          -101.8,
+          -107.2,
+          -119.7
+        ],
+        "std_final_eval": 9.181684667496121
+      },
+      {
+        "alpha_bar": 0.75,
+        "max_final_eval": -105.7,
+        "mean_final_eval": -108.0,
+        "min_final_eval": -110.9,
+        "seed_scores": [
+          -110.9,
+          -107.4,
+          -105.7
+        ],
+        "std_final_eval": 2.6514147167125715
+      },
+      {
+        "alpha_bar": 1.0,
+        "max_final_eval": -144.5,
+        "mean_final_eval": -179.83333333333334,
+        "min_final_eval": -200.0,
+        "seed_scores": [
+          -200.0,
+          -195.0,
+          -144.5
+        ],
+        "std_final_eval": 30.701520049231004
+      }
+    ],
+    "selected_alpha_bar": 0.75,
+    "selected_mean_final_eval": -108.0,
+    "selected_std_final_eval": 2.6514147167125715,
+    "winner_at_edge": false,
+    "winner_at_lower_edge": false,
+    "winner_at_upper_edge": false,
+    "winner_index": 3
+  }
+}

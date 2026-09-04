@@ -1,0 +1,21 @@
+{
+  "beta": 0.05,
+  "explorer": "rate",
+  "explorer_kwargs": {
+    "beta": 0.05,
+    "eps_max": 1.0,
+    "eps_min": 0.01,
+    "kappa": 2.0
+  },
+  "global_normalised_mean": 0.804517462272335,
+  "kappa": 2.0,
+  "tuning_environments": [
+    "MountainCar-v0",
+    "LunarLander-v3"
+  ],
+  "tuning_seeds": [
+    1000,
+    1001,
+    1002
+  ]
+}

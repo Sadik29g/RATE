@@ -1,0 +1,198 @@
+{
+  "Acrobot-v1": {
+    "boltzmann": {
+      "alpha_bar": 0.5,
+      "candidate_value": 0.4,
+      "explorer": "boltzmann",
+      "explorer_kwargs": {
+        "decay_steps": 40000,
+        "tau_end": 0.05,
+        "tau_start": 1.0
+      },
+      "mean_final_eval": -88.96666666666665,
+      "std_final_eval": 10.390540569832416
+    },
+    "decay": {
+      "alpha_bar": 0.5,
+      "candidate_value": 0.6,
+      "explorer": "decay",
+      "explorer_kwargs": {
+        "decay_steps": 60000,
+        "eps_end": 0.01,
+        "eps_start": 1.0,
+        "mode": "linear"
+      },
+      "mean_final_eval": -100.96666666666665,
+      "std_final_eval": 13.958629350094995
+    },
+    "fixed": {
+      "alpha_bar": 0.5,
+      "candidate_value": 0.01,
+      "explorer": "fixed",
+      "explorer_kwargs": {
+        "epsilon": 0.01
+      },
+      "mean_final_eval": -97.5,
+      "std_final_eval": 4.590206967011398
+    },
+    "vdbe": {
+      "alpha_bar": 0.5,
+      "candidate_value": 10000.0,
+      "explorer": "vdbe",
+      "explorer_kwargs": {
+        "eps_init": 1.0,
+        "eps_min": 0.0,
+        "sigma": 10000.0
+      },
+      "mean_final_eval": -92.06666666666668,
+      "std_final_eval": 9.691405126880898
+    }
+  },
+  "CartPole-v1": {
+    "boltzmann": {
+      "alpha_bar": 1.0,
+      "candidate_value": 0.2,
+      "explorer": "boltzmann",
+      "explorer_kwargs": {
+        "decay_steps": 20000,
+        "tau_end": 0.05,
+        "tau_start": 1.0
+      },
+      "mean_final_eval": 467.06666666666666,
+      "std_final_eval": 32.22504202221205
+    },
+    "decay": {
+      "alpha_bar": 1.0,
+      "candidate_value": 0.4,
+      "explorer": "decay",
+      "explorer_kwargs": {
+        "decay_steps": 40000,
+        "eps_end": 0.01,
+        "eps_start": 1.0,
+        "mode": "linear"
+      },
+      "mean_final_eval": 489.76666666666665,
+      "std_final_eval": 17.724653264121507
+    },
+    "fixed": {
+      "alpha_bar": 1.0,
+      "candidate_value": 0.3,
+      "explorer": "fixed",
+      "explorer_kwargs": {
+        "epsilon": 0.3
+      },
+      "mean_final_eval": 180.5666666666667,
+      "std_final_eval": 163.94134113558218
+    },
+    "vdbe": {
+      "alpha_bar": 1.0,
+      "candidate_value": 2000.0,
+      "explorer": "vdbe",
+      "explorer_kwargs": {
+        "eps_init": 1.0,
+        "eps_min": 0.0,
+        "sigma": 2000.0
+      },
+      "mean_final_eval": 332.2,
+      "std_final_eval": 268.2762941446747
+    }
+  },
+  "LunarLander-v3": {
+    "boltzmann": {
+      "alpha_bar": 0.1,
+      "candidate_value": 0.4,
+      "explorer": "boltzmann",
+      "explorer_kwargs": {
+        "decay_steps": 120000,
+        "tau_end": 0.05,
+        "tau_start": 1.0
+      },
+      "mean_final_eval": 51.97897059627332,
+      "std_final_eval": 73.17336878421122
+    },
+    "decay": {
+      "alpha_bar": 0.1,
+      "candidate_value": 0.4,
+      "explorer": "decay",
+      "explorer_kwargs": {
+        "decay_steps": 120000,
+        "eps_end": 0.01,
+        "eps_start": 1.0,
+        "mode": "linear"
+      },
+      "mean_final_eval": 102.14222546600945,
+      "std_final_eval": 22.660772963991473
+    },
+    "fixed": {
+      "alpha_bar": 0.1,
+      "candidate_value": 0.025,
+      "explorer": "fixed",
+      "explorer_kwargs": {
+        "epsilon": 0.025
+      },
+      "mean_final_eval": 96.84977305595167,
+      "std_final_eval": 68.70340096910753
+    },
+    "vdbe": {
+      "alpha_bar": 0.1,
+      "candidate_value": 500.0,
+      "explorer": "vdbe",
+      "explorer_kwargs": {
+        "eps_init": 1.0,
+        "eps_min": 0.0,
+        "sigma": 500.0
+      },
+      "mean_final_eval": 64.10000730958528,
+      "std_final_eval": 83.86543132324971
+    }
+  },
+  "MountainCar-v0": {
+    "boltzmann": {
+      "alpha_bar": 0.75,
+      "candidate_value": 0.6,
+      "explorer": "boltzmann",
+      "explorer_kwargs": {
+        "decay_steps": 90000,
+        "tau_end": 0.05,
+        "tau_start": 1.0
+      },
+      "mean_final_eval": -98.5,
+      "std_final_eval": 1.6093476939431097
+    },
+    "decay": {
+      "alpha_bar": 0.75,
+      "candidate_value": 0.2,
+      "explorer": "decay",
+      "explorer_kwargs": {
+        "decay_steps": 30000,
+        "eps_end": 0.01,
+        "eps_start": 1.0,
+        "mode": "linear"
+      },
+      "mean_final_eval": -105.56666666666666,
+      "std_final_eval": 7.500222218930139
+    },
+    "fixed": {
+      "alpha_bar": 0.75,
+      "candidate_value": 0.1,
+      "explorer": "fixed",
+      "explorer_kwargs": {
+        "epsilon": 0.1
+      },
+      "mean_final_eval": -143.79999999999998,
+      "std_final_eval": 10.410091258005378
+    },
+    "vdbe": {
+      "alpha_bar": 0.75,
+      "candidate_value": 2000.0,
+      "explorer": "vdbe",
+      "explorer_kwargs": {
+        "eps_init": 1.0,
+        "eps_min": 0.0,
+        "sigma": 2000.0
+      },
+      "mean_final_eval": -102.0,
+      "std_final_eval": 2.5119713374160986
+    }
+  }
+}

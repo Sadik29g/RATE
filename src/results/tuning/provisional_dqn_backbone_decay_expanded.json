@@ -1,0 +1,46 @@
+{
+  "Acrobot-v1": {
+    "decay_fraction": 0.2,
+    "decay_steps": 20000,
+    "eps_end": 0.01,
+    "eps_start": 1.0,
+    "learning_rate": 0.001,
+    "mean_final_eval": -82.76666666666667,
+    "mode": "linear",
+    "needs_extension": false,
+    "std_final_eval": 2.7465129406819395
+  },
+  "CartPole-v1": {
+    "decay_fraction": 0.1,
+    "decay_steps": 10000,
+    "eps_end": 0.01,
+    "eps_start": 1.0,
+    "learning_rate": 0.001,
+    "mean_final_eval": 500.0,
+    "mode": "linear",
+    "needs_extension": true,
+    "std_final_eval": 0.0
+  },
+  "LunarLander-v3": {
+    "decay_fraction": 0.2,
+    "decay_steps": 60000,
+    "eps_end": 0.01,
+    "eps_start": 1.0,
+    "learning_rate": 0.0003,
+    "mean_final_eval": 48.048120617649666,
+    "mode": "linear",
+    "needs_extension": false,
+    "std_final_eval": 215.18992680294915
+  },
+  "MountainCar-v0": {
+    "decay_fraction": 0.2,
+    "decay_steps": 30000,
+    "eps_end": 0.01,
+    "eps_start": 1.0,
+    "learning_rate": 0.0003,
+    "mean_final_eval": -176.70000000000002,
+    "mode": "linear",
+    "needs_extension": false,
+    "std_final_eval": 40.35678381635485
+  }
+}
