@@ -1,0 +1,86 @@
+{
+  "Acrobot-v1": {
+    "global_dq": {
+      "interior": true,
+      "mean_epsilon": 0.0001411215041838925,
+      "mean_final_eval": -93.60000000000001,
+      "scope": "global",
+      "sigma": 10000.0,
+      "signal": "dq",
+      "std_final_eval": 7.474623736349543
+    },
+    "global_td": {
+      "interior": true,
+      "mean_epsilon": 0.00026185496522559867,
+      "mean_final_eval": -93.06666666666668,
+      "scope": "global",
+      "sigma": 10000.0,
+      "signal": "td",
+      "std_final_eval": 1.4571661996262932
+    },
+    "state_dq": {
+      "interior": true,
+      "mean_epsilon": 0.8786361820219336,
+      "mean_final_eval": -192.80000000000004,
+      "scope": "state",
+      "sigma": 1000000.0,
+      "signal": "dq",
+      "std_final_eval": 17.870646322950932
+    },
+    "state_td": {
+      "interior": true,
+      "mean_epsilon": 0.9819177267537289,
+      "mean_final_eval": -180.5,
+      "scope": "state",
+      "sigma": 1.0,
+      "signal": "td",
+      "std_final_eval": 29.112025006859273
+    }
+  },
+  "MountainCar-v0": {
+    "global_dq": {
+      "interior": true,
+      "mean_epsilon": 2.984584909280492e-05,
+      "mean_final_eval": -99.2,
+      "scope": "global",
+      "sigma": 50000.0,
+      "signal": "dq",
+      "std_final_eval": 1.1789826122551577
+    },
+    "global_td": {
+      "interior": true,
+      "mean_epsilon": 3.46147402138238e-05,
+      "mean_final_eval": -99.10000000000001,
+      "scope": "global",
+      "sigma": 50000.0,
+      "signal": "td",
+      "std_final_eval": 1.452583904633398
+    },
+    "state_dq": {
+      "interior": true,
+      "mean_epsilon": 0.034795554658582396,
+      "mean_final_eval": -103.46666666666665,
+      "scope": "state",
+      "sigma": 10000.0,
+      "signal": "dq",
+      "std_final_eval": 7.534144499100967
+    },
+    "state_td": {
+      "interior": true,
+      "mean_epsilon": 0.03549118554075139,
+      "mean_final_eval": -103.73333333333333,
+      "scope": "state",
+      "sigma": 10000.0,
+      "signal": "td",
+      "std_final_eval": 5.93660958235703
+    }
+  },
+  "_meta": {
+    "all_interior": true,
+    "tuning_seeds": [
+      7000,
+      7001,
+      7002
+    ]
+  }
+}

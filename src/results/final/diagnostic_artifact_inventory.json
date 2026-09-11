@@ -1,0 +1,659 @@
+{
+  "src\\results\\diagnostics\\reward_scale_linear.pkl": {
+    "first_item_type": "dict",
+    "first_record_keys": [
+      "algo",
+      "alpha_bar",
+      "config",
+      "config_type",
+      "env_id",
+      "ep_complete",
+      "ep_eps",
+      "ep_returns",
+      "ep_steps",
+      "ep_td",
+      "episodes_completed",
+      "epsilon_curve",
+      "eval_returns",
+      "eval_steps",
+      "explorer",
+      "explorer_kwargs",
+      "final_eval",
+      "gamma",
+      "iht_fullness",
+      "iht_overfull_count",
+      "key",
+      "lam",
+      "n_bins",
+      "n_eval_episodes",
+      "n_eval_points",
+      "n_steps",
+      "q_init",
+      "return_curve",
+      "reward_scale",
+      "seed",
+      "td_curve",
+      "total_steps"
+    ],
+    "kind": "pickle",
+    "length": 90,
+    "python_type": "list",
+    "sha256": "c11b0b9bd1f00c511ff0a8106d887f301a14a691f98c4c6bb52b1df0deb8f321"
+  },
+  "src\\results\\diagnostics\\reward_scale_linear_cells.csv": {
+    "columns": [
+      "method",
+      "reward_scale",
+      "mean_final_eval",
+      "std_final_eval",
+      "median_final_eval"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 9,
+    "sha256": "93d66cdfd89414065bbcfe9aab766cb81a7457a127251c2cfc0976db202dcb74"
+  },
+  "src\\results\\diagnostics\\reward_scale_linear_comparisons.csv": {
+    "columns": [
+      "method",
+      "reward_scale",
+      "reference_scale",
+      "exact_native_diagnostic_seeds",
+      "exact_evaluation_seeds",
+      "exact_episode_structure_seeds",
+      "exact_epsilon_summary_seeds",
+      "epsilon_within_1e-12_seeds",
+      "exact_normalized_td_seeds",
+      "normalized_td_shape_match_seeds",
+      "max_epsilon_summary_diff",
+      "max_normalized_td_diff"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 6,
+    "sha256": "93a0637a15afb465d83738bbd89b3ea941611d3bcb371b837c171783bc459f8d"
+  },
+  "src\\results\\diagnostics\\reward_scale_linear_summary.json": {
+    "kind": "json",
+    "python_type": "dict",
+    "sha256": "9048a0bf3bfc37813822a08c47953dbfb9955dda0e9790bcee39836dc681e994",
+    "top_level_keys": [
+      "decay",
+      "rate",
+      "vdbe"
+    ]
+  },
+  "src\\results\\diagnostics\\td_error_deciles.csv": {
+    "columns": [
+      "env_id",
+      "decile",
+      "progress_percent",
+      "td_mean",
+      "td_std",
+      "greedy_mean",
+      "greedy_std"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 40,
+    "sha256": "752f098b0d0e88db18a1343197a01549f721da13f4ec2fc307eb67b33c7c6d66"
+  },
+  "src\\results\\diagnostics\\td_error_dqn_deciles.csv": {
+    "columns": [
+      "env_id",
+      "decile",
+      "progress_percent",
+      "td_mean",
+      "td_std",
+      "greedy_mean",
+      "greedy_std"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 40,
+    "sha256": "d619412a030263dfaee6c36db67f6b414c3f7eff8da83d21c24534241180f47d"
+  },
+  "src\\results\\diagnostics\\td_error_dqn_seed_summary.csv": {
+    "columns": [
+      "env_id",
+      "seed",
+      "early_td",
+      "late_td",
+      "td_ratio",
+      "td_percent_change",
+      "early_greedy_return",
+      "late_greedy_return",
+      "greedy_return_change",
+      "td_increased",
+      "greedy_improved",
+      "inversion_observed"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 40,
+    "sha256": "2196053a73de8b20e5531e7f6622b30864f4df88a9ef837194a8a928e2897345"
+  },
+  "src\\results\\diagnostics\\td_error_dqn_summary.json": {
+    "kind": "json",
+    "python_type": "dict",
+    "sha256": "fc25e02cbd2ee79f31424d0741398d8cdf8df02f0aa3caf316dccdc0634be653",
+    "top_level_keys": [
+      "Acrobot-v1",
+      "CartPole-v1",
+      "LunarLander-v3",
+      "MountainCar-v0"
+    ]
+  },
+  "src\\results\\diagnostics\\td_error_dqn_tuned_deciles.csv": {
+    "columns": [
+      "env_id",
+      "decile",
+      "progress_percent",
+      "td_mean",
+      "td_std",
+      "greedy_mean",
+      "greedy_std"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 40,
+    "sha256": "08af4a2da0a1b319f9480b88fba03cf3d35159f8edd0762fc853a16abda80031"
+  },
+  "src\\results\\diagnostics\\td_error_dqn_tuned_seed_summary.csv": {
+    "columns": [
+      "env_id",
+      "seed",
+      "early_td",
+      "late_td",
+      "td_ratio",
+      "td_percent_change",
+      "early_greedy_return",
+      "late_greedy_return",
+      "greedy_return_change",
+      "td_increased",
+      "greedy_improved",
+      "inversion_observed"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 40,
+    "sha256": "f06386bca14f44eacc84fc5fa6c56527bac7128064e7950ed62f07e2271dd055"
+  },
+  "src\\results\\diagnostics\\td_error_dqn_tuned_summary.json": {
+    "kind": "json",
+    "python_type": "dict",
+    "sha256": "5ccf8d09e4f16d1530f0e48549d57d99386f19c7575a2711437b5cc463a0e240",
+    "top_level_keys": [
+      "Acrobot-v1",
+      "CartPole-v1",
+      "LunarLander-v3",
+      "MountainCar-v0"
+    ]
+  },
+  "src\\results\\diagnostics\\td_error_seed_summary.csv": {
+    "columns": [
+      "env_id",
+      "seed",
+      "n_steps",
+      "alpha_bar",
+      "early_td",
+      "late_td",
+      "td_ratio",
+      "td_percent_change",
+      "early_greedy_return",
+      "late_greedy_return",
+      "greedy_return_change",
+      "td_increased",
+      "greedy_improved",
+      "inversion_observed"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 40,
+    "sha256": "6abe91b7e6eddc000d1de0d2e34b86bc0a85e0ce4c6fe45dfb8ae19ed0284295"
+  },
+  "src\\results\\diagnostics\\td_error_shape_audit.json": {
+    "kind": "json",
+    "python_type": "dict",
+    "sha256": "542577dcbd067185bd9d736c6e126c4f21ba4541ebbe17aa6885e9708f3fe4f7",
+    "top_level_keys": [
+      "Acrobot-v1",
+      "CartPole-v1",
+      "LunarLander-v3",
+      "MountainCar-v0"
+    ]
+  },
+  "src\\results\\diagnostics\\td_error_summary.json": {
+    "kind": "json",
+    "python_type": "dict",
+    "sha256": "92c68b86cbd483b6b0d7f5c862b2e154bcb2884fa027cddcd10baaa148cd04ee",
+    "top_level_keys": [
+      "Acrobot-v1",
+      "CartPole-v1",
+      "LunarLander-v3",
+      "MountainCar-v0"
+    ]
+  },
+  "src\\results\\diagnostics\\td_error_trajectory.pkl": {
+    "first_item_type": "dict",
+    "first_record_keys": [
+      "algo",
+      "alpha_bar",
+      "block_size",
+      "config",
+      "env_id",
+      "episode_returns",
+      "episode_steps",
+      "eval_returns",
+      "eval_steps",
+      "explorer",
+      "explorer_kwargs",
+      "final_eval",
+      "gamma",
+      "iht_fullness",
+      "iht_overfull_count",
+      "key",
+      "lam",
+      "n_eval_episodes",
+      "n_eval_points",
+      "n_steps",
+      "seed",
+      "td_block_mean",
+      "td_block_steps",
+      "total_steps"
+    ],
+    "kind": "pickle",
+    "length": 40,
+    "python_type": "list",
+    "sha256": "fad03fee00aa787c6b663aaef5eb40c7e38f1527ff840f1e65f6274a4d5a55b6"
+  },
+  "src\\results\\diagnostics\\td_error_trajectory_dqn.pkl": {
+    "first_item_type": "dict",
+    "first_record_keys": [
+      "algo",
+      "batch_size",
+      "block_size",
+      "config",
+      "double",
+      "env_id",
+      "eval_returns",
+      "eval_steps",
+      "explorer",
+      "explorer_kwargs",
+      "final_eval",
+      "gamma",
+      "hidden",
+      "key",
+      "learning_rate",
+      "learning_starts",
+      "loss_block_mean",
+      "n_steps",
+      "n_updates",
+      "q_block_mean",
+      "replay_capacity",
+      "replay_size",
+      "reward_scale",
+      "seed",
+      "target_update_every",
+      "td_block_count",
+      "td_block_mean",
+      "td_block_steps",
+      "total_steps",
+      "train_every"
+    ],
+    "kind": "pickle",
+    "length": 40,
+    "python_type": "list",
+    "sha256": "fd23d3541fcd126912b9b976c3275e293d936ec4c12825de36aad8c0a5d7b2f4"
+  },
+  "src\\results\\diagnostics\\td_error_trajectory_dqn_tuned.pkl": {
+    "first_item_type": "dict",
+    "first_record_keys": [
+      "algo",
+      "batch_size",
+      "block_size",
+      "config",
+      "double",
+      "env_id",
+      "eval_returns",
+      "eval_steps",
+      "explorer",
+      "explorer_kwargs",
+      "final_eval",
+      "gamma",
+      "hidden",
+      "key",
+      "learning_rate",
+      "learning_starts",
+      "loss_block_mean",
+      "n_steps",
+      "n_updates",
+      "q_block_mean",
+      "replay_capacity",
+      "replay_size",
+      "reward_scale",
+      "seed",
+      "target_update_every",
+      "td_block_count",
+      "td_block_mean",
+      "td_block_steps",
+      "total_steps",
+      "train_every"
+    ],
+    "kind": "pickle",
+    "length": 40,
+    "python_type": "list",
+    "sha256": "5eb549fb913e1ab3115eb8bd38618a611d6e60320ad7e15fa30ed6fe13d3e915"
+  },
+  "src\\results\\diagnostics\\vdbe_degeneration_dqn.pkl": {
+    "first_item_type": "dict",
+    "first_record_keys": [
+      "action_digest",
+      "algo",
+      "batch_size",
+      "block_size",
+      "block_steps",
+      "config",
+      "double",
+      "env_id",
+      "epsilon_block_mean",
+      "eval_returns",
+      "eval_steps",
+      "explorer",
+      "final_eval",
+      "gamma",
+      "hidden",
+      "key",
+      "learning_rate",
+      "learning_starts",
+      "loss_block_mean",
+      "n_steps",
+      "n_updates",
+      "q_block_mean",
+      "replay_capacity",
+      "seed",
+      "sigma",
+      "target_update_every",
+      "td_block_count",
+      "td_block_mean",
+      "total_steps",
+      "train_every"
+    ],
+    "kind": "pickle",
+    "length": 224,
+    "python_type": "list",
+    "sha256": "10e0613f1b74445e0f05b13c95947ba4ea61e1f96e07536a03a16a8ee685cd34"
+  },
+  "src\\results\\diagnostics\\vdbe_degeneration_dqn_cells.csv": {
+    "columns": [
+      "env_id",
+      "sigma",
+      "mean_final_eval",
+      "std_final_eval",
+      "mean_minus_inf"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 28,
+    "sha256": "de6004ead2a7c3d3b9eededf2e947f5f56c72144b9559015523b56004d1ed506"
+  },
+  "src\\results\\diagnostics\\vdbe_degeneration_dqn_limit_comparison.csv": {
+    "columns": [
+      "env_id",
+      "sigma",
+      "exact_final_eval_seeds",
+      "exact_eval_curve_seeds",
+      "exact_action_digest_seeds",
+      "exact_learning_summary_seeds",
+      "exact_epsilon_curve_seeds",
+      "mean_abs_final_eval_diff",
+      "max_abs_final_eval_diff",
+      "max_epsilon_block_diff"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 16,
+    "sha256": "8354d97a243b7d0ce42cbaf70aa80a1bbbd207bb78b9416c52d348d31f0d2f33"
+  },
+  "src\\results\\diagnostics\\vdbe_degeneration_dqn_summary.json": {
+    "kind": "json",
+    "python_type": "dict",
+    "sha256": "e133ddc80777a4bf886f2d48a587ac90d920ac76cd2f409d69a10276ac9f3b29",
+    "top_level_keys": [
+      "Acrobot-v1",
+      "MountainCar-v0"
+    ]
+  },
+  "src\\results\\diagnostics\\vdbe_degeneration_linear.pkl": {
+    "first_item_type": "dict",
+    "first_record_keys": [
+      "algo",
+      "alpha_bar",
+      "config",
+      "config_type",
+      "env_id",
+      "ep_complete",
+      "ep_eps",
+      "ep_returns",
+      "ep_steps",
+      "ep_td",
+      "episodes_completed",
+      "epsilon_curve",
+      "eval_returns",
+      "eval_steps",
+      "explorer",
+      "explorer_kwargs",
+      "final_eval",
+      "gamma",
+      "iht_fullness",
+      "iht_overfull_count",
+      "key",
+      "lam",
+      "n_bins",
+      "n_eval_episodes",
+      "n_eval_points",
+      "n_steps",
+      "q_init",
+      "return_curve",
+      "reward_scale",
+      "seed",
+      "td_curve",
+      "total_steps"
+    ],
+    "kind": "pickle",
+    "length": 160,
+    "python_type": "list",
+    "sha256": "a1274c077e7214bf22d35e442b6b4f0e4f2346c68835a070fb07176d169055c6"
+  },
+  "src\\results\\diagnostics\\vdbe_degeneration_linear_cells.csv": {
+    "columns": [
+      "env_id",
+      "sigma",
+      "mean_final_eval",
+      "std_final_eval"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 16,
+    "sha256": "cdfcc6efa37bdbb4baab7c20e9c549c26113601e86629a24768d77f57631eb0f"
+  },
+  "src\\results\\diagnostics\\vdbe_degeneration_linear_extension.pkl": {
+    "first_item_type": "dict",
+    "first_record_keys": [
+      "algo",
+      "alpha_bar",
+      "config",
+      "config_type",
+      "env_id",
+      "ep_complete",
+      "ep_eps",
+      "ep_returns",
+      "ep_steps",
+      "ep_td",
+      "episodes_completed",
+      "epsilon_curve",
+      "eval_returns",
+      "eval_steps",
+      "explorer",
+      "explorer_kwargs",
+      "final_eval",
+      "gamma",
+      "iht_fullness",
+      "iht_overfull_count",
+      "key",
+      "lam",
+      "n_bins",
+      "n_eval_episodes",
+      "n_eval_points",
+      "n_steps",
+      "q_init",
+      "return_curve",
+      "reward_scale",
+      "seed",
+      "td_curve",
+      "total_steps"
+    ],
+    "kind": "pickle",
+    "length": 120,
+    "python_type": "list",
+    "sha256": "179cd1c8268dd8abd1dd274dc88d380735badeff5e085e5d44a37bb4ae321267"
+  },
+  "src\\results\\diagnostics\\vdbe_degeneration_linear_pairwise.csv": {
+    "columns": [
+      "env_id",
+      "sigma_a",
+      "sigma_b",
+      "exact_behaviour_seeds",
+      "exact_final_eval_seeds",
+      "exact_eval_curve_seeds",
+      "exact_return_curve_seeds",
+      "exact_td_curve_seeds",
+      "exact_epsilon_curve_seeds",
+      "max_eval_difference",
+      "max_return_curve_difference",
+      "max_td_curve_difference",
+      "max_epsilon_curve_difference"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 6,
+    "sha256": "c664a439380cfb3a49c29317902a97b18fbf99f11e3f34773d7f7a7d8a78bc9a"
+  },
+  "src\\results\\diagnostics\\vdbe_degeneration_linear_summary.json": {
+    "kind": "json",
+    "python_type": "dict",
+    "sha256": "e1be522d4cb0e8e92f3967acb083f184300b3a87ea0c0487eb3af16af0242f46",
+    "top_level_keys": [
+      "Acrobot-v1",
+      "MountainCar-v0"
+    ]
+  },
+  "src\\results\\diagnostics\\vdbe_fidelity_linear_final.pkl": {
+    "first_item_type": "dict",
+    "first_record_keys": [
+      "alpha_bar",
+      "config",
+      "env_id",
+      "ep_complete",
+      "ep_dq",
+      "ep_eps",
+      "ep_returns",
+      "ep_signal",
+      "ep_steps",
+      "ep_td",
+      "eps_init",
+      "eps_min",
+      "final_eval",
+      "gamma",
+      "iht_fullness",
+      "iht_overfull_count",
+      "key",
+      "lambda",
+      "mean_abs_dq",
+      "mean_abs_signal",
+      "mean_abs_td",
+      "mean_epsilon",
+      "mean_training_return",
+      "n_steps",
+      "scope",
+      "seed",
+      "sigma",
+      "signal_kind",
+      "state_epsilon_count",
+      "total_steps",
+      "variant"
+    ],
+    "kind": "pickle",
+    "length": 64,
+    "python_type": "list",
+    "sha256": "3aacd08c041b2cb91767ab456a6c681c748444fa4511b3fee9de100a8bca7d37"
+  },
+  "src\\results\\diagnostics\\vdbe_fidelity_linear_final_cells.csv": {
+    "columns": [
+      "env_id",
+      "variant",
+      "sigma",
+      "mean_final_eval",
+      "std_final_eval",
+      "median_final_eval",
+      "mean_epsilon",
+      "mean_abs_td",
+      "mean_abs_dq",
+      "mean_state_epsilon_count"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 8,
+    "sha256": "9f9c9cba5fee562675668a01bd7fee2fd281da46071c86267c406bdcd0afbd24"
+  },
+  "src\\results\\diagnostics\\vdbe_fidelity_linear_final_paired.csv": {
+    "columns": [
+      "env_id",
+      "comparison",
+      "treatment",
+      "reference",
+      "mean_difference",
+      "std_difference",
+      "median_difference",
+      "positive_seeds",
+      "negative_seeds",
+      "tie_seeds",
+      "exact_sign_flip_p"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 10,
+    "sha256": "b4a57788f62f88a3af19fbad10cec96380ddf050697e45323e9e6b5b2b96e801"
+  },
+  "src\\results\\diagnostics\\vdbe_fidelity_linear_final_summary.json": {
+    "kind": "json",
+    "python_type": "dict",
+    "sha256": "44c6e4771b760cb6ee1dea30325ded0f095c4c057d2c59f064170ec67365ca0b",
+    "top_level_keys": [
+      "Acrobot-v1",
+      "MountainCar-v0"
+    ]
+  },
+  "src\\results\\diagnostics\\vdbe_limit_linear_cells.csv": {
+    "columns": [
+      "env_id",
+      "sigma",
+      "mean_final_eval",
+      "std_final_eval"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 28,
+    "sha256": "8791ae66d79680212e5f5f9848cea13b5c0a010e32861e14479bd40088b72169"
+  },
+  "src\\results\\diagnostics\\vdbe_limit_linear_comparison.csv": {
+    "columns": [
+      "env_id",
+      "sigma",
+      "mean_abs_seed_score_diff",
+      "max_abs_seed_score_diff",
+      "exact_final_eval_seeds",
+      "exact_eval_curve_seeds",
+      "exact_stored_trajectory_seeds",
+      "exact_epsilon_curve_seeds",
+      "max_epsilon_curve_diff"
+    ],
+    "kind": "csv",
+    "rows_excluding_header": 16,
+    "sha256": "0f00e384dcd37069e5980387e82e8e57d0e1085389498aa5891956494462d870"
+  },
+  "src\\results\\diagnostics\\vdbe_limit_linear_summary.json": {
+    "kind": "json",
+    "python_type": "dict",
+    "sha256": "a6f0cbd2af32cde90518503e0a95384eba3e6e390630c9f5b876dc318bbbc4cd",
+    "top_level_keys": [
+      "Acrobot-v1",
+      "MountainCar-v0"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "experiment_A": {
+    "dqn_choice": "tuned DQN diagnostic",
+    "dqn_source": "src\\results\\diagnostics\\td_error_dqn_tuned_deciles.csv",
+    "linear_source": "src\\results\\diagnostics\\td_error_deciles.csv"
+  },
+  "experiment_B": {
+    "dqn_cells": "src\\results\\diagnostics\\vdbe_degeneration_dqn_cells.csv",
+    "dqn_exactness": "src\\results\\diagnostics\\vdbe_degeneration_dqn_limit_comparison.csv",
+    "linear_cells": "src\\results\\diagnostics\\vdbe_limit_linear_cells.csv",
+    "linear_exactness": "src\\results\\diagnostics\\vdbe_limit_linear_comparison.csv"
+  },
+  "experiment_C": {
+    "source": "src\\results\\diagnostics\\reward_scale_linear_cells.csv"
+  },
+  "figure_count": 6,
+  "formats": [
+    "png",
+    "pdf"
+  ],
+  "outputs": [
+    "src\\figures\\final\\diagnostics\\diag_A_td_error_linear.png",
+    "src\\figures\\final\\diagnostics\\diag_A_td_error_linear.pdf",
+    "src\\figures\\final\\diagnostics\\diag_A_td_error_dqn.png",
+    "src\\figures\\final\\diagnostics\\diag_A_td_error_dqn.pdf",
+    "src\\figures\\final\\diagnostics\\diag_B_vdbe_limit_performance.png",
+    "src\\figures\\final\\diagnostics\\diag_B_vdbe_limit_performance.pdf",
+    "src\\figures\\final\\diagnostics\\diag_B_vdbe_exact_convergence.png",
+    "src\\figures\\final\\diagnostics\\diag_B_vdbe_exact_convergence.pdf",
+    "src\\figures\\final\\diagnostics\\diag_C_reward_scale.png",
+    "src\\figures\\final\\diagnostics\\diag_C_reward_scale.pdf",
+    "src\\figures\\final\\diagnostics\\diag_vdbe_fidelity.png",
+    "src\\figures\\final\\diagnostics\\diag_vdbe_fidelity.pdf"
+  ],
+  "source_hashes": {
+    "src\\results\\diagnostics\\reward_scale_linear_cells.csv": "93d66cdfd89414065bbcfe9aab766cb81a7457a127251c2cfc0976db202dcb74",
+    "src\\results\\diagnostics\\td_error_deciles.csv": "752f098b0d0e88db18a1343197a01549f721da13f4ec2fc307eb67b33c7c6d66",
+    "src\\results\\diagnostics\\td_error_dqn_tuned_deciles.csv": "08af4a2da0a1b319f9480b88fba03cf3d35159f8edd0762fc853a16abda80031",
+    "src\\results\\diagnostics\\vdbe_degeneration_dqn_cells.csv": "de6004ead2a7c3d3b9eededf2e947f5f56c72144b9559015523b56004d1ed506",
+    "src\\results\\diagnostics\\vdbe_degeneration_dqn_limit_comparison.csv": "8354d97a243b7d0ce42cbaf70aa80a1bbbd207bb78b9416c52d348d31f0d2f33",
+    "src\\results\\diagnostics\\vdbe_fidelity_linear_final_cells.csv": "9f9c9cba5fee562675668a01bd7fee2fd281da46071c86267c406bdcd0afbd24",
+    "src\\results\\diagnostics\\vdbe_limit_linear_cells.csv": "8791ae66d79680212e5f5f9848cea13b5c0a010e32861e14479bd40088b72169",
+    "src\\results\\diagnostics\\vdbe_limit_linear_comparison.csv": "0f00e384dcd37069e5980387e82e8e57d0e1085389498aa5891956494462d870"
+  },
+  "vdbe_fidelity": {
+    "source": "src\\results\\diagnostics\\vdbe_fidelity_linear_final_cells.csv"
+  }
+}

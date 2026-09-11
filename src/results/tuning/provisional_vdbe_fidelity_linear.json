@@ -1,0 +1,70 @@
+{
+  "Acrobot-v1": {
+    "global_dq": {
+      "interior": true,
+      "mean_final_eval": -93.60000000000001,
+      "scope": "global",
+      "sigma": 10000.0,
+      "signal": "dq",
+      "std_final_eval": 7.474623736349543
+    },
+    "global_td": {
+      "interior": true,
+      "mean_final_eval": -93.06666666666668,
+      "scope": "global",
+      "sigma": 10000.0,
+      "signal": "td",
+      "std_final_eval": 1.4571661996262932
+    },
+    "state_dq": {
+      "interior": false,
+      "mean_final_eval": -192.80000000000004,
+      "scope": "state",
+      "sigma": 1000000.0,
+      "signal": "dq",
+      "std_final_eval": 17.870646322950932
+    },
+    "state_td": {
+      "interior": false,
+      "mean_final_eval": -180.5,
+      "scope": "state",
+      "sigma": 1.0,
+      "signal": "td",
+      "std_final_eval": 29.112025006859273
+    }
+  },
+  "MountainCar-v0": {
+    "global_dq": {
+      "interior": true,
+      "mean_final_eval": -99.2,
+      "scope": "global",
+      "sigma": 50000.0,
+      "signal": "dq",
+      "std_final_eval": 1.1789826122551577
+    },
+    "global_td": {
+      "interior": true,
+      "mean_final_eval": -99.10000000000001,
+      "scope": "global",
+      "sigma": 50000.0,
+      "signal": "td",
+      "std_final_eval": 1.452583904633398
+    },
+    "state_dq": {
+      "interior": true,
+      "mean_final_eval": -103.46666666666665,
+      "scope": "state",
+      "sigma": 10000.0,
+      "signal": "dq",
+      "std_final_eval": 7.534144499100967
+    },
+    "state_td": {
+      "interior": true,
+      "mean_final_eval": -103.73333333333333,
+      "scope": "state",
+      "sigma": 10000.0,
+      "signal": "td",
+      "std_final_eval": 5.93660958235703
+    }
+  }
+}

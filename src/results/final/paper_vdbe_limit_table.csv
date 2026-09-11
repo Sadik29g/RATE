@@ -1,0 +1,5 @@
+approximator,env_id,best_finite_sigma,best_finite_mean,infinite_mean,best_minus_infinite,first_exact_sigma
+linear,MountainCar-v0,50000,-99.69,-100.30000000000001,0.6100000000000136,1e+06
+linear,Acrobot-v1,10000,-95.97,-101.82,5.849999999999994,1e+07
+double_dqn,MountainCar-v0,1,-145.7625,-168.5625,22.80000000000001,1e+07
+double_dqn,Acrobot-v1,500,-86.1625,-148.7625,62.599999999999994,1e+06

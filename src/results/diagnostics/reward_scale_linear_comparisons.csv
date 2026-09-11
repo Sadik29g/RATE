@@ -1,0 +1,7 @@
+method,reward_scale,reference_scale,exact_native_diagnostic_seeds,exact_evaluation_seeds,exact_episode_structure_seeds,exact_epsilon_summary_seeds,epsilon_within_1e-12_seeds,exact_normalized_td_seeds,normalized_td_shape_match_seeds,max_epsilon_summary_diff,max_normalized_td_diff
+rate,0.01,1.0,0,10,10,0,10,0,10,1.4654943925052066e-14,1.7678303265711293e-11
+rate,100.0,1.0,10,10,10,0,10,0,10,3.6637359812630166e-15,5.9117155615240335e-12
+vdbe,0.01,1.0,0,0,0,0,0,0,0,0.04594109147495943,182.6088159201953
+vdbe,100.0,1.0,0,0,0,0,0,0,0,0.513725574977009,159.44832986709108
+decay,0.01,1.0,0,10,10,10,10,0,10,0.0,1.8133050616597757e-11
+decay,100.0,1.0,10,10,10,10,10,0,10,0.0,3.097966327914037e-12

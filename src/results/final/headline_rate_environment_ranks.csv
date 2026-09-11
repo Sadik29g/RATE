@@ -1,0 +1,5 @@
+env_id,linear_rate_rank,dqn_rate_rank
+MountainCar-v0,4,2
+CartPole-v1,4,2
+Acrobot-v1,5,3
+LunarLander-v3,1,2

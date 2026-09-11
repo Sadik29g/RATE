@@ -1,0 +1,11 @@
+env_id,comparison,treatment,reference,mean_difference,std_difference,median_difference,positive_seeds,negative_seeds,tie_seeds,exact_sign_flip_p
+MountainCar-v0,signal_effect_global,global_dq,global_td,0.0625,0.2559994419636754,0.0,2,1,5,0.75
+MountainCar-v0,scope_effect_td,state_td,global_td,-1.5625,7.691356465911219,-1.1499999999999986,3,5,0,0.578125
+MountainCar-v0,closest_fidelity_vs_project,state_dq,global_td,-1.2375000000000025,7.008349612120835,-1.2000000000000028,2,6,0,0.59375
+MountainCar-v0,signal_effect_state,state_dq,state_td,0.3249999999999975,6.703037690906586,-0.15000000000000568,3,4,1,0.9375
+MountainCar-v0,scope_effect_dq,state_dq,global_dq,-1.3000000000000025,7.155018219004455,-1.0500000000000043,2,6,0,0.578125
+Acrobot-v1,signal_effect_global,global_dq,global_td,10.862499999999999,22.068784515690933,15.0,5,3,0,0.203125
+Acrobot-v1,scope_effect_td,state_td,global_td,-96.7625,31.556884578261442,-86.69999999999999,0,8,0,0.0078125
+Acrobot-v1,closest_fidelity_vs_project,state_dq,global_td,-86.025,23.161529063760632,-80.25,0,8,0,0.0078125
+Acrobot-v1,signal_effect_state,state_dq,state_td,10.737500000000004,44.62628749643293,-2.3999999999999915,4,4,0,0.5078125
+Acrobot-v1,scope_effect_dq,state_dq,global_dq,-96.88749999999999,34.37351295484858,-81.75,0,8,0,0.0078125

@@ -1,0 +1,147 @@
+{
+  "double_dqn": {
+    "ranking": [
+      "rate",
+      "fixed",
+      "vdbe",
+      "boltzmann",
+      "decay"
+    ],
+    "rate_iqm": 0.6770481121548723,
+    "rate_rank": 1
+  },
+  "frozen_claims": {
+    "approximator_dependence": true,
+    "dqn_summary": "RATE ranks first under Double DQN. Its aggregate IQM advantage over decay and Boltzmann has 95 percent bootstrap intervals excluding zero; differences from fixed epsilon and VDBE remain inconclusive.",
+    "linear_summary": "RATE ranks fourth under linear function approximation. It outperforms fixed epsilon, is not distinguishable from decay or VDBE in aggregate, and underperforms Boltzmann.",
+    "main_headline": "Exploration-method ordering depends strongly on the function approximator. RATE is not universally dominant, but its relative performance improves substantially when moving from linear function approximation to Double DQN.",
+    "mountaincar_dqn_caveat": "Double-DQN MountainCar remains near the -200 floor for all methods, so statistically detected differences there should not be framed as large practical advantages.",
+    "shift_inference": "The cross-approximator difference values are descriptive. No direct hypothesis test of the rank or aggregate difference shift is claimed.",
+    "universal_dominance": false
+  },
+  "linear": {
+    "ranking": [
+      "boltzmann",
+      "vdbe",
+      "decay",
+      "rate",
+      "fixed"
+    ],
+    "rate_iqm": 0.8657608082840336,
+    "rate_rank": 4
+  },
+  "rank_shift": [
+    {
+      "dqn_iqm": 0.5982243104392094,
+      "dqn_rank": 2,
+      "linear_iqm": 0.599074095583997,
+      "linear_rank": 5,
+      "method": "fixed",
+      "rank_change_to_dqn": 3
+    },
+    {
+      "dqn_iqm": 0.4029058433314848,
+      "dqn_rank": 5,
+      "linear_iqm": 0.8986312337873561,
+      "linear_rank": 3,
+      "method": "decay",
+      "rank_change_to_dqn": -2
+    },
+    {
+      "dqn_iqm": 0.4095922368094517,
+      "dqn_rank": 4,
+      "linear_iqm": 0.9286642684762955,
+      "linear_rank": 1,
+      "method": "boltzmann",
+      "rank_change_to_dqn": -3
+    },
+    {
+      "dqn_iqm": 0.4662516894811105,
+      "dqn_rank": 3,
+      "linear_iqm": 0.9071124566366194,
+      "linear_rank": 2,
+      "method": "vdbe",
+      "rank_change_to_dqn": -1
+    },
+    {
+      "dqn_iqm": 0.6770481121548723,
+      "dqn_rank": 1,
+      "linear_iqm": 0.8657608082840336,
+      "linear_rank": 4,
+      "method": "rate",
+      "rank_change_to_dqn": 3
+    }
+  ],
+  "rate_delta_shift": [
+    {
+      "baseline": "fixed",
+      "descriptive_shift": -0.1878629109843737,
+      "dqn_ci_high": 0.3221894061551498,
+      "dqn_ci_low": -0.17385476644164033,
+      "dqn_difference": 0.07882380171566283,
+      "dqn_direction": "inconclusive",
+      "linear_ci_high": 0.33586657370229406,
+      "linear_ci_low": 0.19661754045310004,
+      "linear_difference": 0.2666867127000365,
+      "linear_direction": "RATE better"
+    },
+    {
+      "baseline": "decay",
+      "descriptive_shift": 0.30701269432670997,
+      "dqn_ci_high": 0.4288010890553354,
+      "dqn_ci_low": 0.023156327185864006,
+      "dqn_difference": 0.27414226882338744,
+      "dqn_direction": "RATE better",
+      "linear_ci_high": 0.013654291849021599,
+      "linear_ci_low": -0.08226529546599538,
+      "linear_difference": -0.03287042550332253,
+      "linear_direction": "inconclusive"
+    },
+    {
+      "baseline": "boltzmann",
+      "descriptive_shift": 0.33035933553768243,
+      "dqn_ci_high": 0.44496386706095925,
+      "dqn_ci_low": 0.02944315767300016,
+      "dqn_difference": 0.26745587534542054,
+      "dqn_direction": "RATE better",
+      "linear_ci_high": -0.012285567855592629,
+      "linear_ci_low": -0.10899972957687339,
+      "linear_difference": -0.0629034601922619,
+      "linear_direction": "RATE worse"
+    },
+    {
+      "baseline": "vdbe",
+      "descriptive_shift": 0.2521480710263476,
+      "dqn_ci_high": 0.31244633095951685,
+      "dqn_ci_low": -0.04263643552390514,
+      "dqn_difference": 0.21079642267376175,
+      "dqn_direction": "inconclusive",
+      "linear_ci_high": 0.012247928859754958,
+      "linear_ci_low": -0.08794539341811057,
+      "linear_difference": -0.04135164835258587,
+      "linear_direction": "inconclusive"
+    }
+  ],
+  "rate_environment_ranks": [
+    {
+      "dqn_rate_rank": 2,
+      "env_id": "MountainCar-v0",
+      "linear_rate_rank": 4
+    },
+    {
+      "dqn_rate_rank": 2,
+      "env_id": "CartPole-v1",
+      "linear_rate_rank": 4
+    },
+    {
+      "dqn_rate_rank": 3,
+      "env_id": "Acrobot-v1",
+      "linear_rate_rank": 5
+    },
+    {
+      "dqn_rate_rank": 2,
+      "env_id": "LunarLander-v3",
+      "linear_rate_rank": 1
+    }
+  ]
+}

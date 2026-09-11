@@ -1,0 +1,32 @@
+{
+  "outputs": {
+    "src\\paper\\generated\\paper_numbers.tex": "5e651736ba2ee2921c128bcdf952b7d4815b68ca04b4b194213efaf7715d122f",
+    "src\\paper\\generated\\results_figure_map.md": "da1925fdd070a79ec4c0b42239e6438924dbf0ed866de5a5919c0e696bfe8473",
+    "src\\results\\final\\paper_headline_table.csv": "0a8f4ff6a10a55741f2184a9bc894161a75dce71c99f75662652cf91641dc206",
+    "src\\results\\final\\paper_results_claims.json": "51a70a8d382e75dc80c1628fc8a16540430d46513253aff7057471befbac9a00",
+    "src\\results\\final\\paper_reward_scale_table.csv": "9b72ea99c11703e66f763e4ef37245d1844c89d30c17f94539f5428ef82e4039",
+    "src\\results\\final\\paper_td_diagnostic_table.csv": "05fa6ef3e9e33803f8fc59109a891fe4131faa705308ebe1f6d80b7c6a2ed5c6",
+    "src\\results\\final\\paper_vdbe_fidelity_table.csv": "866be47b8bce202fa51fa3607daad156c12f7f1afddf2a4c79974d4c97370e53",
+    "src\\results\\final\\paper_vdbe_limit_table.csv": "b62b623f943925ba558ddd22c65e3cce53492af42eff874e5fd34a7fdc2e8f75"
+  },
+  "purpose": "Authoritative generated numbers, claims, tables, and figure mapping for the final manuscript.",
+  "sources": {
+    "src\\results\\diagnostics\\reward_scale_linear_cells.csv": "93d66cdfd89414065bbcfe9aab766cb81a7457a127251c2cfc0976db202dcb74",
+    "src\\results\\diagnostics\\reward_scale_linear_comparisons.csv": "93a0637a15afb465d83738bbd89b3ea941611d3bcb371b837c171783bc459f8d",
+    "src\\results\\diagnostics\\td_error_dqn_tuned_seed_summary.csv": "f06386bca14f44eacc84fc5fa6c56527bac7128064e7950ed62f07e2271dd055",
+    "src\\results\\diagnostics\\td_error_seed_summary.csv": "6abe91b7e6eddc000d1de0d2e34b86bc0a85e0ce4c6fe45dfb8ae19ed0284295",
+    "src\\results\\diagnostics\\vdbe_degeneration_dqn_cells.csv": "de6004ead2a7c3d3b9eededf2e947f5f56c72144b9559015523b56004d1ed506",
+    "src\\results\\diagnostics\\vdbe_degeneration_dqn_limit_comparison.csv": "8354d97a243b7d0ce42cbaf70aa80a1bbbd207bb78b9416c52d348d31f0d2f33",
+    "src\\results\\diagnostics\\vdbe_fidelity_linear_final_cells.csv": "9f9c9cba5fee562675668a01bd7fee2fd281da46071c86267c406bdcd0afbd24",
+    "src\\results\\diagnostics\\vdbe_fidelity_linear_final_paired.csv": "b4a57788f62f88a3af19fbad10cec96380ddf050697e45323e9e6b5b2b96e801",
+    "src\\results\\diagnostics\\vdbe_limit_linear_cells.csv": "8791ae66d79680212e5f5f9848cea13b5c0a010e32861e14479bd40088b72169",
+    "src\\results\\diagnostics\\vdbe_limit_linear_comparison.csv": "0f00e384dcd37069e5980387e82e8e57d0e1085389498aa5891956494462d870",
+    "src\\results\\final\\dqn_headline_aggregate.csv": "dcc1538f9490ad7cbb243abaa58d60261cef4a8cbfdb388867764ee36ae7d553",
+    "src\\results\\final\\dqn_headline_rate_comparisons.csv": "80720f96bf041d936cacd273caf5a9f1c13f888109909da70e654f7eeb03e40f",
+    "src\\results\\final\\headline_rank_shift.csv": "a0337dfbd84f4ad99e6b905516f3f25610153743f9cb777a6e98f1e6d7ff0ba6",
+    "src\\results\\final\\headline_rate_delta_shift.csv": "04618c6d372321fa467a27b1ef995fca8526a96dedf2dbb64a4eee06b99ccd0e",
+    "src\\results\\final\\headline_rate_environment_ranks.csv": "dac729cc0a54dc1829aee9171a06a33fb889f33818adbc28c607b66406fb3e18",
+    "src\\results\\final\\linear_headline_aggregate.csv": "0f03903536391cdc26239a3b1d9a4b623f2448d49474b58580777ca58ad0a5f5",
+    "src\\results\\final\\linear_headline_rate_comparisons.csv": "2ce4322f11c03c39f47c0351e1d733d8ad621bd8c690ca4d6e00127add76f90a"
+  }
+}

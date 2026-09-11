@@ -1,0 +1,233 @@
+{
+  "algo": "sarsa-lambda",
+  "alpha_bar": {
+    "Acrobot-v1": 0.5,
+    "CartPole-v1": 1.0,
+    "LunarLander-v3": 0.1,
+    "MountainCar-v0": 0.75
+  },
+  "authoritative_budget_source": "src.sweep_configs.STEP_BUDGET",
+  "baseline_selections": {
+    "Acrobot-v1": {
+      "boltzmann": 0.4,
+      "decay": 0.6,
+      "fixed": 0.01,
+      "vdbe": 10000.0
+    },
+    "CartPole-v1": {
+      "boltzmann": 0.2,
+      "decay": 0.4,
+      "fixed": 0.3,
+      "vdbe": 2000.0
+    },
+    "LunarLander-v3": {
+      "boltzmann": 0.4,
+      "decay": 0.4,
+      "fixed": 0.025,
+      "vdbe": 500.0
+    },
+    "MountainCar-v0": {
+      "boltzmann": 0.6,
+      "decay": 0.2,
+      "fixed": 0.1,
+      "vdbe": 2000.0
+    }
+  },
+  "budgets": {
+    "Acrobot-v1": 100000,
+    "CartPole-v1": 100000,
+    "LunarLander-v3": 300000,
+    "MountainCar-v0": 150000
+  },
+  "config_sha256": "828b7d52d6649bf5683579e8cc607945dac44914d95944c47c3f7333fba65c5d",
+  "environments": [
+    "MountainCar-v0",
+    "CartPole-v1",
+    "Acrobot-v1",
+    "LunarLander-v3"
+  ],
+  "explorer_kwargs": {
+    "Acrobot-v1": {
+      "boltzmann": {
+        "decay_steps": 40000,
+        "tau_end": 0.05,
+        "tau_start": 1.0
+      },
+      "decay": {
+        "decay_steps": 60000,
+        "eps_end": 0.01,
+        "eps_start": 1.0,
+        "mode": "linear"
+      },
+      "fixed": {
+        "epsilon": 0.01
+      },
+      "rate": {
+        "beta": 0.05,
+        "eps_max": 1.0,
+        "eps_min": 0.01,
+        "kappa": 2.0
+      },
+      "vdbe": {
+        "alpha_scale": 1.0,
+        "eps_init": 1.0,
+        "eps_min": 0.0,
+        "sigma": 10000.0
+      }
+    },
+    "CartPole-v1": {
+      "boltzmann": {
+        "decay_steps": 20000,
+        "tau_end": 0.05,
+        "tau_start": 1.0
+      },
+      "decay": {
+        "decay_steps": 40000,
+        "eps_end": 0.01,
+        "eps_start": 1.0,
+        "mode": "linear"
+      },
+      "fixed": {
+        "epsilon": 0.3
+      },
+      "rate": {
+        "beta": 0.05,
+        "eps_max": 1.0,
+        "eps_min": 0.01,
+        "kappa": 2.0
+      },
+      "vdbe": {
+        "alpha_scale": 1.0,
+        "eps_init": 1.0,
+        "eps_min": 0.0,
+        "sigma": 2000.0
+      }
+    },
+    "LunarLander-v3": {
+      "boltzmann": {
+        "decay_steps": 120000,
+        "tau_end": 0.05,
+        "tau_start": 1.0
+      },
+      "decay": {
+        "decay_steps": 120000,
+        "eps_end": 0.01,
+        "eps_start": 1.0,
+        "mode": "linear"
+      },
+      "fixed": {
+        "epsilon": 0.025
+      },
+      "rate": {
+        "beta": 0.05,
+        "eps_max": 1.0,
+        "eps_min": 0.01,
+        "kappa": 2.0
+      },
+      "vdbe": {
+        "alpha_scale": 1.0,
+        "eps_init": 1.0,
+        "eps_min": 0.0,
+        "sigma": 500.0
+      }
+    },
+    "MountainCar-v0": {
+      "boltzmann": {
+        "decay_steps": 90000,
+        "tau_end": 0.05,
+        "tau_start": 1.0
+      },
+      "decay": {
+        "decay_steps": 30000,
+        "eps_end": 0.01,
+        "eps_start": 1.0,
+        "mode": "linear"
+      },
+      "fixed": {
+        "epsilon": 0.1
+      },
+      "rate": {
+        "beta": 0.05,
+        "eps_max": 1.0,
+        "eps_min": 0.01,
+        "kappa": 2.0
+      },
+      "vdbe": {
+        "alpha_scale": 1.0,
+        "eps_init": 1.0,
+        "eps_min": 0.0,
+        "sigma": 2000.0
+      }
+    }
+  },
+  "gamma": 1.0,
+  "lambda": 0.9,
+  "methods": [
+    "fixed",
+    "decay",
+    "boltzmann",
+    "vdbe",
+    "rate"
+  ],
+  "n_bins": 100,
+  "n_configs": 600,
+  "n_eval_episodes": 10,
+  "n_eval_points": 20,
+  "protocol": "final-linear-headline",
+  "q_init": 0.0,
+  "rate": {
+    "beta": 0.05,
+    "eps_max": 1.0,
+    "eps_min": 0.01,
+    "kappa": 2.0
+  },
+  "reward_scale": 1.0,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "status": "FROZEN",
+  "tracked_file_sha256": {
+    "src\\agents.py": "4cde9a9db4cdf83694aaa9b958b3a537ca186eff7b36651cfb4fb87880252a27",
+    "src\\environments.py": "02e5ef9bfcd16eb1d9abd7b8137ae02d7af8e6c27d978aa43c58242568fb60ae",
+    "src\\exploration.py": "847ca5b9ca23d0bc3ce187ff370e9656f44bc7b972efbe1994c11bf5340025c6",
+    "src\\results\\tuning\\selected_alpha.json": "fca3417d0c1b43f20dcb3af1a840f7ecb2fd5ab437c1baa85e951a1fb2a5e1e4",
+    "src\\results\\tuning\\selected_linear_baselines.json": "c857dd8366b7ef2c6826a4c405b880e951afd1e39caed581f6f30ecb1240e0b5",
+    "src\\results\\tuning\\selected_rate.json": "51a579c8aba38cbb399bb26d61dbf8acb0ff7204cee338eb6712a275cee0701c",
+    "src\\runner.py": "68ea2fc2dff0526850af816c249206e9f809c0c1d19a50dcc2c0fb57588b0f4a",
+    "src\\sweep.py": "39fb54c734555e61cf177932136e7b69456d0ffc54396123fa4a03dec20c2241",
+    "src\\sweep_configs.py": "fa47f96d9668326029bec4294fcd102751f85d9ee51ffd1b2de80a1c1679bf77",
+    "src\\tilecoding.py": "6d6e252dab15a32a211c203eea78eaffca9c46f1b7c0a16b650508121a9753b3"
+  },
+  "warnings": [
+    "runner.STEP_BUDGET is a legacy conflicting constant. Final launcher must use sweep_configs.STEP_BUDGET and explicit cfg.n_steps."
+  ]
+}
